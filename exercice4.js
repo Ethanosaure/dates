@@ -37,7 +37,8 @@ export function exercice4() {
 
     //   displaying today's informations
     date_div.innerText = day;
-    day_div.innerText = `${today.getDate()} ${month}`;
+    day_div.innerText = `${today.getDate()} 
+    ${month}`;
     year_div.innerText = today.getFullYear();
     time.innerText = `${today.getHours()} : ${today.getMinutes()} : ${today.getSeconds()}`;
   }
